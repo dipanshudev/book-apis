@@ -1,0 +1,37 @@
+# Node.js and TypeScript specific
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+
+# IDE and editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+Thumbs.db
+.DS_Store
+
+# Config and environment files
+.env
+package-lock.json
+
+# Build artifacts
+build/
+out/
+
+# Dependency directories
+
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

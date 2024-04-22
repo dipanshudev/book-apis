@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "baseUrl": "./",
+      "paths": {
+        "@controllers/*": ["src/controllers/*"],
+        "@models/*": ["src/models/*"],
+        "@typings/*": ["src/typings/*"],
+        "@routes/*": ["src/routes/*"],
+        "@services/*": ["src/services/*"],
+        "@config/*": ["src/config/*"],
+        "@utils/*": ["src/utils/*"],
+        "@middleware/*": ["src/middleware/*"],
+        //more here  
+      },
+      "typeRoots": ["./types", "node_modules/@types"]
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"],
+    "ts-node": {
+      "require": ["tsconfig-paths/register"]
+    }
+  }
+  
